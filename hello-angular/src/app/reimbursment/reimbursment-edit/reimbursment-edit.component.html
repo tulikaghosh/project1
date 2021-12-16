@@ -1,0 +1,42 @@
+<div class="container mb-5">
+    <h2>Book Edit Form</h2>
+    <div class="card mt-5">
+     <form>
+      <div class="card-header bg-warning">EDIT Reimbursment DETAILS</div>
+      <div class="card-body">
+          
+            <div class="form-group">
+              <label for="reimbursmentId">Reimbursment ID :</label>
+              <!-- replaced text box for book id with the data being
+                  display directly using string interpolation on the page
+                  so that the user cannot update the primary key-->
+              {{ updateReimbursment.rbId }}
+            
+            <div class="form-group">
+            <label for="reimbursmentAmount">Reimbursment Amount</label>
+            <input type="text" 
+                    class="form-control" 
+                    id="reimbursmentAmount"  
+                    name="reimbursmentAmount"
+                    [(ngModel)]="updateReimbursment.rbAmount">
+            </div>
+            <div class="form-group">
+            <label for="reimbursmentStetus">Reimbursment Status:</label>
+            <input type="text" 
+                    class="form-control" 
+                    id="reimbursmentStatus"  
+                    name="reimbursmentStatus"
+                    [(ngModel)]="updateReimbursment.rbStatus">
+            </div>
+            
+      </div> 
+      <div class="card-footer bg-warning">
+          <button 
+                type="button" 
+                class="btn btn-danger mr-5"
+                (click)="editReimbursment()">Update</button>
+      </div>
+    </div>
+    </form>
+    </div>
+  </div>

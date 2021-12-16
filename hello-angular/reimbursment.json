@@ -1,0 +1,22 @@
+{
+    "reimbursments":[
+    {"rbId": 1,
+     "empId": 1,
+     "mgrId": 1,
+     "rbAmount": 100,
+     "rbStatus":"pending"
+    },
+   {"rbId": 2,
+     "empId": 2,
+     "mgrId": 1,
+     "rbAmount": 200,
+     "rbStatus":"pending"
+    },
+    {"rbId": 3,
+      "empId": 2,
+      "mgrId": 1,
+      "rbAmount": 300,
+      "rbStatus":"deny"
+     }
+    ]
+  }

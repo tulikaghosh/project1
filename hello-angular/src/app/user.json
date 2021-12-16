@@ -1,0 +1,16 @@
+{
+    "user":[
+    {"userId": 1,
+     "userPassword": "empOne",
+	 "userType": "employee"
+     },
+	 {"userId": 2,
+     "userPassword": "empTwo",
+	 "userType": "employee"
+     },
+	  {"userId": 3,
+     "userPassword": "admin",
+	 "userType": "manager"
+     }
+   ]
+  }

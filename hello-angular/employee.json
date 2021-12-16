@@ -1,0 +1,15 @@
+{
+    "employees":[
+    {"empId": 1,
+     "empName": "riya",
+     "empAddress": "sandyBottomDr",
+     "userId": 1
+    },
+   {
+     "empId": 2,
+     "empName": "rishii",
+     "empAddress": "skippingRock",
+      "userId": 2
+   }
+   ]
+  }

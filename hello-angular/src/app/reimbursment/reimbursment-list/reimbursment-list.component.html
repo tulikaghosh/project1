@@ -1,0 +1,47 @@
+<div class="container">
+    <button 
+        type="button" 
+        class="btn btn-success bm-5"
+        (click)="toggleAdd()">
+         A Reimbursment
+    </button>
+    <div *ngIf="flag">
+        <form class="form-inline tm-5">
+            <label for="employeeId" class="mb-2 mr-sm-2">Id:</label>
+            <input 
+                type="text" 
+                class="form-control mb-2 mr-sm-2" 
+                id="employeeId" 
+                placeholder="Enter Employee ID" 
+                name="EmployeeId"
+                [(ngModel)]="newReimbursment.empId">
+            
+             <button 
+                type="button" 
+                class="btn btn-primary mb-2"
+                (click)="addReimbursment()">EMP</button>
+          </form>  
+    </div>
+    <h2>Reimbursment</h2>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          
+          <th>Reimbursment ID</th>
+          <th>Employee ID</th>
+          <th>Reimbursment Amount</th>
+          <th>Reimbursment Status</th>
+         
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let reimbursment of allReimbursment">
+            <td>{{ reimbursment.rbId }}</td>
+            <td>{{ reimbursment.empId}}</td>
+            <td>{{ reimbursment.rbAmount }}</td>
+            <td>{{ reimbursment.rbStatus}}</td>
+         </tr>
+      </tbody>
+    </table>
+  </div>

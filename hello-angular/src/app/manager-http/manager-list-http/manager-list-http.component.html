@@ -1,0 +1,24 @@
+<div class="container">
+    
+    
+    <h2>Employee List</h2>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Manager Name</th>
+          <th>Manager Address</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let manager of allManager">
+            <td>{{ manager.mgrId }}</td>
+            <td>{{ manager.mgrName}}</td>
+            <td>{{ manager.mgrAddress }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
