@@ -11,5 +11,5 @@ Utilized RDS with PostgreSQL to store data.
 Used Maven as a project management tool to handle dependencies inside the application.
 Managed source control with Git version control. 
 
-##Environment / Technologies
+## Environment / Technologies
 Java, JavaScript, HTML, CSS, JDBC, SQL, AJAX, Bootstrap, RDS, Git, Maven
