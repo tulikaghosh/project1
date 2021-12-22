@@ -1,6 +1,4 @@
 # projectOne
-This project was generated with Angular CLI version 13.0.2.
-
 ## Project Description
 
 The Expense Reimbursement System (ERS) will manage the process of reimbursing employees for expenses incurred while on company time. All employees in the company can login and submit request. Finance manager can log in and view all reimbursement requests. Finance manager is authorized to approve and deny requests for expense reimbursement.
